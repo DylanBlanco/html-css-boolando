@@ -14,6 +14,12 @@ general
     max-width: 1000px;
     margin: 0 auto;
 }
+.main-container {
+    max-height: 1000px;
+}
+.row-box-main {
+    height: calc(100%/2);
+}
 
 .row {
     margin: 0 auto;
@@ -41,14 +47,22 @@ img {
 
 h6 {
     color: white;
+    font-size: 0.5rem;
 }
 p {
     color: black;
+    font-size: 0.8rem;
 }
 a {
     text-decoration: none;
     margin: 0 5px;
     color: white;
+}
+.sale {
+    color: red;
+}
+s {
+    color: black;
 }
 
 
@@ -71,9 +85,6 @@ header
 /*
 main
 */
-.main-container {
-    background-color: beige;
-}
 .row-main {
     max-width: 80%;
     max-height: 50%;
@@ -99,13 +110,19 @@ main
 .column {
     padding: 20px;
 }
+.come-zucchero-filato {
+    background-image: url(../img/3.webp);
+    max-height: 100%;
+}
 
 /*
 footer
 */
 .row-box-footer {
     background-color: #33333f;
+    border-bottom: 1px solid white;
 }
 footer p {
     color: white;
+    font-size: 0.5rem;
 }
