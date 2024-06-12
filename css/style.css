@@ -10,7 +10,10 @@ reset
 /*
 general
 */
-
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 /*
 header
 */
@@ -18,7 +21,30 @@ header
 /*
 main
 */
-
+.row {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: orange;
+}
+.list-link>ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+.row:first-child {
+    border: 2px solid yellow;
+}
+.row:nth-child(2) {
+}
+.row:last-child {
+    border: 2px solid yellow;
+}
+.boolean-logo {
+    width: 15%;
+}
 /*
 footer
 */
