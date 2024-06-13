@@ -11,14 +11,8 @@ reset
 general
 */
 .container {
-    max-width: 1000px;
     margin: 0 auto;
-}
-.main-container {
-    max-height: 1000px;
-}
-.row-box-main {
-    height: calc(100%/2);
+    width: 100%;
 }
 
 .row {
@@ -43,7 +37,7 @@ general
 
 img {
     max-width: 100%;
-}
+}   
 
 h6 {
     color: white;
@@ -85,16 +79,18 @@ header
 /*
 main
 */
-.row-main {
-    max-width: 80%;
-    max-height: 50%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+.main-container {
+    width: 80%;
 }
 
-.column {
-    padding: 20px;
+.row-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-container {
+    width: calc(100%/3);
+    padding: 20px 10px;
 }
 
 .discount {
@@ -112,15 +108,16 @@ main
     background-color: #207d20;
     margin-left: 5px;
 }
+.scheda {
+    position: relative;
+}
 .heart {
     font-size: 1.3rem;
     background-color: white;
     padding: 5px;
     position: absolute;
     top: 10px;
-}
-.box-heart {
-    position: absolute;
+    right: 0;
 }
 
 /*
